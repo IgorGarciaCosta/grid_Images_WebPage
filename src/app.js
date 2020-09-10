@@ -60,6 +60,14 @@ app.get('/cats', (req, res) => {
 
 })
 
+app.get('/space', (req, res) => {
+    res.render('space', {
+        title: 'Space images',
+        name: 'Igor Garcia'
+    })
+
+})
+
 
 app.get('*', (req, res) => {
     res.render('404', {
