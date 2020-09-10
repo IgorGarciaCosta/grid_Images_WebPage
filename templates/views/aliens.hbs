@@ -5,14 +5,38 @@
 <head>
     <title>Aliens</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/pageStyles.css">
 </head>
 
 <body>
-    <main>
-        {{>header}}
-        <p>some Aliens images</p>
-    </main>
+    {{>header}}
+    <h1>Section Flexbox</h1>
+    <section class="flex">
+        <div>
+            <img id="idImg" src="/img/alien1.jpg">
+            <p class="description">First alien</p>
+        </div>
+        <div>
+            <img id="idImg" src="/img/alien2.jpg">
+            <p class="description">Second alien</p>
+        </div>
+        <div>
+            <img id="idImg" src="/img/alien3.jpg">
+            <p class="description">Third alien</p>
+        </div>
+        <div>
+            <img id="idImg" src="/img/alien4.jpg">
+            <p class="description">Forth alien</p>
+        </div>
+        <div>
+            <img id="idImg" src="/img/alien5.jpg">
+            <p class="description">Fifth alien</p>
+        </div>
+        <div>
+            <img id="idImg" src="/img/alien6.jpg">
+            <p class="description">Sixth alien</p>
+        </div>
+    </section>
 
     {{>footer}}
 </body>

@@ -52,6 +52,14 @@ app.get('/aliens', (req, res) => {
 
 })
 
+app.get('/cats', (req, res) => {
+    res.render('cats', {
+        title: 'Cats images',
+        name: 'Igor Garcia'
+    })
+
+})
+
 
 app.get('*', (req, res) => {
     res.render('404', {

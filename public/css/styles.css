@@ -166,24 +166,3 @@ main {
         transition: opacity var(--transition-speed);
     }
 }
-
-header {
-    margin-top: 16px;
-    margin-bottom: 48px;
-}
-
-header a {
-    color: #5a5b86;
-    margin-right: 20px;
-    text-decoration: none;
-    padding: 4px;
-    border: 1px solid #888888;
-    border-radius: 10px;
-}
-
-footer {
-    border-top: 1px solid black;
-    margin-top: 16px;
-    padding: 16px 0;
-    text-align: center;
-}
