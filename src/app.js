@@ -68,6 +68,13 @@ app.get('/space', (req, res) => {
 
 })
 
+app.get('/shuttle', (req, res) => {
+    res.render('shuttle', {
+        title: 'Shuttle images',
+        name: 'Igor Garcia'
+    })
+
+})
 
 app.get('*', (req, res) => {
     res.render('404', {
